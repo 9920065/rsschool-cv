@@ -15,17 +15,17 @@ _I am 27 years old. I am currently working as a sales manager and am taking fron
 #### Skills
 * ___HTML___
 * ___CSS___
-* ____Java Script____
+* ___Java Script___
 * ___Git/GitHub___
 ***
 #### Code Examples
 
 ```
 var = a,b,c,d;
-a==15;
-b==12;
-c==83;
-d=== a+b-c;
+a == 15;
+b == 12;
+c == 83;
+d === a+b-c;
 Console.log(d);
 ```
 *** 
