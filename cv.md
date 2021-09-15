@@ -26,7 +26,7 @@ a == 15;
 b == 12;
 c == 83;
 d === a+b-c;
-Console.log(d);
+console.log(d);
 ```
 *** 
 #### Education
