@@ -48,3 +48,5 @@ console.log(d);
   ***
   #### Eanglish
   * I am learning English. To do this, I use an application on my smartphone: Duolingo and study with a tutor.
+  ***
+  [![Ссылка на сайт RS School](logo.png)](https://rs.school/)
