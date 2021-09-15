@@ -47,12 +47,12 @@ console.log(d);
  * Since 2020 I have been working as a sales manager
 
  ---
- #### Languages
+#### Languages
   * Russian
   * Belorussian
 
   ---
-  #### Eanglish
+#### Eanglish
   * I am learning English. To do this, I use an application on my smartphone: Duolingo and study with a tutor.
 
   ---
