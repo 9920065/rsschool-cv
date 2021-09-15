@@ -1,8 +1,8 @@
-# RS SCHOOL-CV
 
-## Andrey Svetlov 
 
-### Junior Frontend developer
+# Andrey Svetlov 
+
+## Junior Frontend developer
 ---
 #### Contact information
 * Phone: +375(33) 335-66-59
