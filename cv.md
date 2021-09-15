@@ -1,13 +1,14 @@
 # RS SCHOOL-CV
-***
+
 ## Andrey Svetlov 
-***
+
 ### Junior Frontend developer
 ---
 #### Contact information
 Phone: +375(33) 335-66-59
 E-mail: svetlov9920065@gmail.com
 Telegram: __@shift_1994__
+
 ***
 #### Summary
 _I am 27 years old. I am currently working as a sales manager and am taking frontend courses at rs school. I like to learn and comprehend new knowledge. I am also a very active person. I love communicating with interesting people and outdoor activities._
