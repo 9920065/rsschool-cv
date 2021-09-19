@@ -30,20 +30,40 @@ h1, h2 {
 }
 
 main { 
+    background-color: dimgray;
+    margin: 0;
        flex-direction: row;
     display: flex;
 justify-content: space-evenly;}
 
 .left-column {
+    color: coral ;
+    margin: 1;
+    background-color:lightslategray;
     display: flex;
-    width: 70%;
+    width: 60%;
     flex-direction: column;
     justify-content: center;
 }
 
 .right-column {
+    color:coral;
+    background-color:lightslategray;
+    margin: 1;
     display: flex;
-    width: 30%;
+    width: 25%;
     flex-direction: column;
     justify-content: center
-}x-end
+}
+footer {
+    height: 30px;
+    display: flex; ;
+    background-color: rgb(37, 32, 32);
+    
+}
+a {
+    
+    height: auto;
+    justify-content: center;
+    width: 25%;
+}
