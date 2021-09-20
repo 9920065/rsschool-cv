@@ -3,7 +3,8 @@ header {
     display:flex;
     align-items: center;
     justify-content:space-between;
-    padding-left: 200px;
+    padding-left: 450px;
+    padding-right: 120px;
 }
 
 .name {
