@@ -1,5 +1,5 @@
 header {
-    background-color: rgba(46, 155, 146, 0.637);
+    background-color: rgba(104, 155, 151, 0.637);
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -31,7 +31,7 @@ h1, h2 {
 
 main { 
     
-    background-color: rgba(86, 63, 141, 0.473);
+    background-color: rgba(13, 12, 15, 0.473);
     margin: 0;
        flex-direction: row;
     display: flex;
@@ -40,7 +40,7 @@ justify-content: space-evenly;}
 .left-column {
     word-wrap:break-word;
     text-align: left;
-    color: rgb(218, 221, 32) ;
+    color: blanchedalmond ;
     margin: 0;
     padding: 10px;
     background-color:rgba(10, 33, 54, 0.479);
@@ -53,7 +53,7 @@ justify-content: space-evenly;}
 .right-column {
     word-wrap:break-word;
     min-width: 50px;
-    color:rgb(202, 212, 51);
+    color:blanchedalmond;
     background-color:rgba(24, 48, 71, 0.459);
     margin: 0;
     padding: 10px ;
