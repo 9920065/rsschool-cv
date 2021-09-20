@@ -1,10 +1,12 @@
+body {
+    background-color: rgb(104, 155, 151);
+}
 header {
-    background-color: rgba(104, 155, 151, 0.637);
+    padding: 10px 0;
     display:flex;
     align-items: center;
-    justify-content:space-between;
-    padding-left: 450px;
-    padding-right: 120px;
+    justify-content:space-around;
+    flex-direction: column;
 }
 
 .name {
@@ -19,7 +21,6 @@ h1, h2 {
     color: blanchedalmond;
 }
 
-
 .my-photo {
     display: flex;
     max-width: 320px;
@@ -31,12 +32,12 @@ h1, h2 {
 }
 
 main { 
-    
-    background-color: rgba(104, 155, 151, 0.637);
     margin: 0;
-       flex-direction: row;
+    flex-direction: column;
     display: flex;
-justify-content: space-evenly;}
+    justify-content: space-around;
+
+}
 
 .left-column {
     word-wrap:break-word;
@@ -46,7 +47,6 @@ justify-content: space-evenly;}
     padding: 10px;
     background-color:rgba(10, 33, 54, 0.479);
     display: flex;
-    width: 60%;
     flex-direction: column;
     justify-content: center;
 }
@@ -59,39 +59,68 @@ justify-content: space-evenly;}
     margin: 0;
     padding: 10px ;
     display: flex;
-    width: 25%;
     flex-direction: column;
     justify-content: center
 }
 
+.my-task,
+.right-column a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.my-task:hover,
+.right-column a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.code-examples {
+    font-style: italic;
+    color: yellow;
+}
+
 .foot {
-    background-color: rgba(181, 199, 197, 0.637);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color:;
-
-
+    background-color: rgba(181, 199, 197, 0.637);
 }
+
 .year {
     font-style:italic;
     font-weight:bolder;
     font-size:35px;
     align-items:center;
-
 }
+
 .link {
     font-style:italic;
     font-weight:bolder;
     font-size:25px;
-    
-
+    color: greenyellow;
 }
 
 .logo {
     width: 80px;
     height: auto;
-    
+} 
 
+@media (min-width: 950px) {
+    header {
+        flex-direction: row;
+    }
+    main {
+        flex-direction: row;
+    }
+
+    .left-column {
+        width: 60%;
+    }
+
+    .right-column {
+        width: 25%;
+    }
+    
 }

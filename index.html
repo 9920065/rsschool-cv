@@ -1,68 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Работа со стилями</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Работа со стилями</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
 
+    <body>  
+        <header> 
+            <div class="Name">
+                <h1> Andrey Svetlov  </h1>    
+                <h2>Junior Frontend developer</h2>
+            </div>
+            <img class="my-photo" src="my-photo.jpg" alt="my photo">
+        </header>
+        <main>
+            <section class="left-column">
+                <h3>Summary</h3> 
+                    <p>I am 27 years old. I am currently working as a sales manager<br> and am taking frontend courses at rs school. <br>
+                        I like to learn and comprehend new knowledge.<br> I am also a very active person. 
+                        I love communicating with interesting people<br>  and outdoor activities. 
+                    </p> 
 
-<body>
-    
-    <header> 
-         <div class="Name">
-            <h1> Andrey Svetlov  </h1>    
-            <h2>Junior Frontend developer</h2>
-        </div>
-       
-        <img class="my-photo" src="my-photo.jpg" alt="my photo">
-    </header>
-      
-
- 
-
-    <main>
-        <section class="left-column">
-            
-
-            <h3>Summary</h3> 
-                <p>I am 27 years old. I am currently working as a sales manager<br> and am taking frontend courses at rs school. <br>
-                    I like to learn and comprehend new knowledge.<br> I am also a very active person. 
-                    I love communicating with interesting people<br>  and outdoor activities. 
-                </p> 
-
-            <h3>Education</h3> 
-
-                <ul>
-                    <li>Suvorovets of the Minsk Suvorov Military School <br>
-                         2008 - 2012 year</li> 
-                    <li>Cadet of the military-technical faculty at the Belarusian National Technical University <br>
-                        2012 -2017 years. Specialty industrial and civil construction</li> 
-                    <li>Now I study at RS School</li> 
-                </ul>
-
-            <h3>Experience</h3> 
-                <ul> 
-                    <li>2017 - 2020 Border Guard Officer</li> 
-                    <li>Since 2020 I have been working as a sales manager</li> 
-                </ul>
-            
+                <h3>Education</h3> 
+                    <ul>
+                        <li>Suvorovets of the Minsk Suvorov Military School <br>
+                            2008 - 2012 year</li> 
+                        <li>Cadet of the military-technical faculty at the Belarusian National Technical University <br>
+                            2012 -2017 years. Specialty industrial and civil construction</li> 
+                        <li>Now I study at RS School</li> 
+                    </ul>
+                    
+                <h3>Experience</h3> 
+                    <ul> 
+                        <li>2017 - 2020 Border Guard Officer</li> 
+                        <li>Since 2020 I have been working as a sales manager</li> 
+                    </ul>
+                <h3>Completed tasks:</h3>
+                    <a class="my-task" href="https://github.com/9920065/rsschool-cv/pull/1" target="_blank">
+                        <h4>Markdoun&Git. <span>Used technology - Markdoun</span></h4> 
+                        
+                    </a>
                 <h3>Eanglish</h3>
                     <p>I am learning English. To do this, I use an application on my smartphone: 
                     <br> Duolingo and study with a tutor.</p>
-        </section>
+            </section>
 
-        <section class="right-column" >
-            <h3>Contact information</h3>
-                <ul> 
-                    <li> Phone: +375(33) 335-66-59</li>
-                    <li> E-mail: svetlov9920065@gmail.com </li> 
-                    <li> Telegram: @shift_1994></li> 
-                    <li>   GitHub: <a href="https://github.com/9920065">9920065</a></li>
-                </ul>
+            <section class="right-column" >
+                <h3>Contact information</h3>
+                    <ul> 
+                        <li> Phone: +375(33) 335-66-59</li>
+                        <li> E-mail: svetlov9920065@gmail.com </li> 
+                        <li> Telegram: @shift_1994></li> 
+                        <li>   GitHub: <a href="https://github.com/9920065">9920065</a></li>
+                    </ul>
 
                 <h3>Skills</h3> 
                     <ol> <li>HTML</li> 
@@ -70,42 +64,35 @@
                         <li>Java Script</li> 
                         <li>Git/GitHub</li>  
                     </ol>
-
+                    
                 <h3>Code Examples</h3> 
-                    var = a,b,c,d; <br>
-                    a == 15; <br>
-                    b == 12; <br>
-                    c == 83; <br>
-                    d === a+b-c; <br>
-                    console.log(d); <br>
+                    <article class="code-examples">
+                        var = a,b,c,d; <br>
+                        a == 15; <br>
+                        b == 12; <br>
+                        c == 83; <br>
+                        d === a+b-c; <br>
+                        console.log(d); <br>
+                    </article> 
 
                 <h3>Languages</h3> 
                     <ul>
                         <li>Russian</li>
                         <li>Belorussian</li>
                     </ul>
-
-        </section>
-
-
- 
-    </main>  
-   
-    <footer class="foot">
-        <div class="year">
-            2021
-        </div>
-
-        <div class="link">
-            <a href="https://github.com/9920065">My GitHub</a>
-        </div>
-
-        <div>
-            <a href="https://rs.school/"> <img class="logo" src="rss-logo.svg" alt="logo RS School"> </a> 
-        </div>
-    </footer>  
-
-
+            </section>
+        </main>  
     
-</body>
+        <footer class="foot">
+            <div class="year">2021</div>
+
+            <div class="link">
+                <a href="https://github.com/9920065">My GitHub</a>
+            </div>
+
+            <a href="https://rs.school/">
+                <img class="logo" src="rss-logo.svg" alt="logo RS School">
+            </a> 
+        </footer>  
+    </body>
 </html>
