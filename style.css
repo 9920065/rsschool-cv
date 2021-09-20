@@ -1,5 +1,5 @@
 header {
-    background-color: dimgray;
+    background-color: rgba(46, 155, 146, 0.637);
     display:flex;
     align-items: center;
     justify-content: space-around;
@@ -30,16 +30,20 @@ h1, h2 {
 }
 
 main { 
-    background-color: dimgray;
+    
+    background-color: rgba(86, 63, 141, 0.473);
     margin: 0;
        flex-direction: row;
     display: flex;
 justify-content: space-evenly;}
 
 .left-column {
-    color: coral ;
-    margin: 1;
-    background-color:lightslategray;
+    word-wrap:break-word;
+    text-align: left;
+    color: rgb(218, 221, 32) ;
+    margin: 0;
+    padding: 10px;
+    background-color:rgba(10, 33, 54, 0.479);
     display: flex;
     width: 60%;
     flex-direction: column;
@@ -47,9 +51,12 @@ justify-content: space-evenly;}
 }
 
 .right-column {
-    color:coral;
-    background-color:lightslategray;
-    margin: 1;
+    word-wrap:break-word;
+    min-width: 50px;
+    color:rgb(202, 212, 51);
+    background-color:rgba(24, 48, 71, 0.459);
+    margin: 0;
+    padding: 10px ;
     display: flex;
     width: 25%;
     flex-direction: column;
@@ -61,7 +68,7 @@ footer {
     background-color: rgb(37, 32, 32);
     
 }
-a {
+.foot{
     
     height: auto;
     justify-content: center;
