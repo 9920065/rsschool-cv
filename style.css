@@ -2,7 +2,8 @@ header {
     background-color: rgba(104, 155, 151, 0.637);
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-between;
+    padding-left: 200px;
 }
 
 .name {
@@ -12,6 +13,7 @@ header {
 }
 
 h1, h2 {
+    text-align: center;
     margin: 0;
     color: blanchedalmond;
 }
@@ -19,19 +21,17 @@ h1, h2 {
 
 .my-photo {
     display: flex;
-    justify-content: flex-end;
     max-width: 320px;
     max-height: 320px;
     height: 30%;
     border-radius: 50%;
     border: 3px solid blanchedalmond;
     width: 70%;
-    justify-content: flex-start;
 }
 
 main { 
     
-    background-color: rgba(13, 12, 15, 0.473);
+    background-color: rgba(104, 155, 151, 0.637);
     margin: 0;
        flex-direction: row;
     display: flex;
