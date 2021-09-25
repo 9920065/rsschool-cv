@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(104, 155, 151);
+}
+header {
+    padding: 10px 0;
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.name {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 0;
+    color: blanchedalmond;
+}
+
+.my-photo {
+    display: flex;
+    max-width: 320px;
+    max-height: 320px;
+    height: 30%;
+    border-radius: 50%;
+    border: 3px solid blanchedalmond;
+    width: 70%;
+}
+
+main { 
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.left-column {
+    word-wrap:break-word;
+    text-align: left;
+    color: blanchedalmond ;
+    margin: 0;
+    padding: 10px;
+    background-color:rgba(10, 33, 54, 0.479);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-column {
+    word-wrap:break-word;
+    min-width: 50px;
+    color:blanchedalmond;
+    background-color:rgba(24, 48, 71, 0.459);
+    margin: 0;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.my-task,
+.right-column a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.my-task:hover,
+.right-column a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.code-examples {
+    font-style: italic;
+    color: yellow;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(181, 199, 197, 0.637);
+}
+
+.year {
+    font-style:italic;
+    font-weight:bolder;
+    font-size:35px;
+    align-items:center;
+}
+
+.link {
+    font-style:italic;
+    font-weight:bolder;
+    font-size:25px;
+    color: greenyellow;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+} 
+
+@media (min-width: 950px) {
+    header {
+        flex-direction: row;
+    }
+    main {
+        flex-direction: row;
+    }
+
+    .left-column {
+        width: 60%;
+    }
+
+    .right-column {
+        width: 25%;
+    }
+    
+}
